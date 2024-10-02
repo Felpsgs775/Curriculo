@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url(images_curr/f744060231b6aaecd96b158c50b35a84.gif);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@font-face {
+    font-family: 'Fonte item da lista';
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap);
+}
+/*Centralizacao da pagina*/
+div.pagina{
+    width: 900px;
+    border: 1px solid black;
+    margin: -20px auto 10px auto;
+    background-image: url(images_curr/7ffa2f2e760bbfafb25d9e6ddd6c8d92.jpg);
+    box-shadow: black 500px;
+    background-size: 1500px;
+}
+/*formatacao body*/
+body{
+    background-image: url(images_curr/f744060231b6aaecd96b158c50b35a84.gif);
+}
+/*Personalizacao de links externos*/
+ ul li a.cvale{
+    text-decoration: none;
+    width: 170px;
+    color: black;
+}
+ ul li a.cvale:hover{
+    transition: 2s;
+    text-decoration: black underline; 
+    background-color: blue;
+    color: white;
+}
+li a.facul{
+    color: black;
+    text-decoration: none;
+    
+}
+li a.facul:hover{
+    font-size: medium;
+    background-color: yellow;
+    color: black;
+    transition: 2s;
+    text-decoration: underline;
+}
+/*formatacao de itens de lista*/
+li{
+    display: block;
+    font-family: Arial, sans-serif;
+}
+/*titulos de lista*/
+
+
+
+
+
+
+/*cabecalho*/
+header.cabecalho{
+    border-bottom: solid black 3px;
+    background-image: url(images_curr/pngtree-abstract-dark-blue-gamin.jpg);
+    margin-top: -9px;
+    background-size: 800px;
+}
+header.cabecalho h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 100px;
+    position: relative;
+    border: 1px black;
+}
+/*imagens*/
+header img#foto1{
+    width: 300px;
+    position: absolute;
+    display: block;
+    right: 400px;
+    top: 5px;
+    max-width: 350px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    border: solid black;
+}
